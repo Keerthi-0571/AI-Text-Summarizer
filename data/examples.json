@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "topic": "Science",
+    "text": "Researchers at a university marine lab reported that a coral reef off the coast of Indonesia recovered about 60 percent of its lost coverage within six years after a severe bleaching event in 2016. The team, led by Dr. Ananya Rao, attributed the recovery to a ban on fishing in the area and to unusually stable water temperatures between 2018 and 2022. They surveyed 40 sites by diving and by using underwater drones. However, the researchers warned that the reef remains vulnerable, since a single marine heatwave could undo much of the progress. The study was published in a peer-reviewed journal in March and recommended extending the fishing ban to neighbouring reefs."
+  },
+  {
+    "id": 2,
+    "topic": "Business",
+    "text": "A mid-sized electronics retailer announced that it will close 25 of its 140 stores by the end of next year, citing a shift toward online shopping and rising rents. The company said that about 900 employees would be affected, and that roughly 300 of them would be offered roles at nearby stores. Chief executive Marcus Lindqvist said the savings, estimated at 18 million dollars annually, would be invested in its delivery network and mobile app. Shares of the company fell 4 percent on the news. Analysts noted that the retailer's online sales grew 22 percent last year, but that its overall profit margin fell to 3 percent."
+  },
+  {
+    "id": 3,
+    "topic": "Technology",
+    "text": "A new open-source programming tool released this week lets developers run small language models directly in a web browser without sending data to a server. The project, maintained by a group of volunteers, supports models of up to about 3 billion parameters and uses the graphics processor of the user's device to speed up processing. Early testers reported that a typical response took two to five seconds on a modern laptop, but that older phones struggled and sometimes ran out of memory. The developers said privacy was the main motivation, because no text ever leaves the user's machine. They plan to add support for voice input in the next version."
+  },
+  {
+    "id": 4,
+    "topic": "Health",
+    "text": "A city health department launched a campaign to increase flu vaccination among adults over 65 after last winter's rates dropped to 58 percent, down from 67 percent two years earlier. The campaign includes free vaccination at 12 community pharmacies, mobile clinics visiting senior centers every Wednesday, and reminder calls from volunteers. Health officials said that older adults are far more likely to be hospitalized with flu complications. The department set a goal of reaching 70 percent coverage by the end of March. Funding of 450,000 dollars comes from a state grant, and the program will be reviewed after one year."
+  },
+  {
+    "id": 5,
+    "topic": "Education",
+    "text": "A school district in the northern part of the state will move to a four-day school week beginning in September, with classes ending at 3:45 PM Monday through Thursday and Fridays reserved for optional tutoring and activities. District leaders said the change would save about 1.2 million dollars in transportation and energy costs and help recruit teachers, since the district has 35 unfilled positions. Some parents expressed concern about childcare on Fridays, so the district will offer low-cost supervised programs at three elementary schools. A review of test scores will be carried out after two years, and the board can reverse the decision if results decline."
+  }
+]

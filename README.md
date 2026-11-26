@@ -24,7 +24,7 @@ A Python-based AI Text Summarizer built using a pretrained Hugging Face model (`
 ## Project Structure
 
 ```text
-text-summarizer/
+AI-Text-Summarizer/
 ├── summarizer/
 │   ├── __init__.py
 │   └── core.py
@@ -38,6 +38,7 @@ text-summarizer/
 ├── notebooks/
 │   └── AI_Text_Summarizer.ipynb
 ├── tests/
+│   ├── __init__.py
 │   ├── test_summarizer.py
 │   └── test_web.py
 ├── docs/
@@ -60,21 +61,23 @@ text-summarizer/
 
 ## Setup
 
-Clone the repository:
+### 1. Clone the repository
 
 ```bash
-git clone <your-github-repository-url>
-cd text-summarizer
+git clone https://github.com/Keerthi-0571/AI-Text-Summarizer.git
+cd AI-Text-Summarizer
 ```
 
-Create and activate a virtual environment on Windows:
+### 2. Create and activate a virtual environment
+
+For Windows:
 
 ```bash
 python -m venv .venv
 .venv\Scripts\activate
 ```
 
-Install the required packages:
+### 3. Install the required packages
 
 ```bash
 pip install -r requirements.txt
@@ -86,8 +89,15 @@ The first run downloads the pretrained model from Hugging Face.
 
 ### 1. Command Line
 
+Summarize a text file:
+
 ```bash
 python app.py --file article.txt --length short
+```
+
+Summarize text directly:
+
+```bash
 python app.py --text "Your long text here..." --length 50
 ```
 
@@ -113,9 +123,7 @@ python web.py
 
 Open the following address in your browser:
 
-```text
-http://127.0.0.1:5000
-```
+`http://127.0.0.1:5000`
 
 Paste your text, select the summary length, and click **Summarize**. The application displays the generated summary and word count.
 
@@ -145,16 +153,20 @@ The summarizer was tested using five sample passages covering different topics.
 
 The automatic check did not flag unsupported numbers or names in these five summaries. Manual review identified omissions and a sentence-quality issue.
 
+The automatic check is a basic heuristic and does not guarantee factual accuracy.
+
 ## Test Results
 
-The project was tested using Python's unittest framework.
+The project was tested using Python's `unittest` framework.
 
 **Command executed:**
+
 ```bash
 python -m unittest discover -s tests -v
 ```
 
 **Results:**
+
 - Total tests: 19
 - Passed: 19
 - Failed: 0
@@ -187,6 +199,6 @@ Additional information about the model and prompts is available in:
 
 ## Author
 
-K S Keerthi
+**K S Keerthi**
 
 **Skill Nexis – Generative AI & LLM Development**
